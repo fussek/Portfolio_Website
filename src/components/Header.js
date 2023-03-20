@@ -5,9 +5,11 @@ const Header = () => {
   const [toggle, setToggle] = useState(false);
   const handleToggle = () => setToggle(!toggle);
   return (
-    <header className='flex justify-between px-5 py-2 bg-primary text-white'>
-      <a href='' className='logo text-2xl font-bold text-accent'>
-        PFussek
+    <header className='flex justify-between px-20 py-2 bg-primary text-primary'>
+      <a href='' className='logo text-2xl'>
+        <h1>
+          <span className='text-accent text-3xl'>P</span>atryk <span className='text-accent text-3xl'>F</span>ussek
+        </h1>
       </a>
 
       {/* Desktop Nav */}

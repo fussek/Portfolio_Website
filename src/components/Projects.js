@@ -8,7 +8,7 @@ const projects = [
   {
     title: 'Pinterest Clone',
     subtitle: 'React.js | Firebase',
-    description: 'React.js Single-Page-Application Pinterest inspired website with use of hooks, states, grid layout, Firebase/Firestore',
+    description: '📌📱 Pinterest Clone | ⌨️🖱️ React.js | 🧑‍💻 Portfolio project, React.js Single-Page-Application Pinterest inspired website with use of hooks, states, grid layout, Firebase/Firestore',
     image: project_1,
     live: 'https://instajumper.netlify.app/',
     code: 'https://github.com/fussek/Pinterest_Clone',
@@ -16,26 +16,36 @@ const projects = [
   {
     title: 'Travel App',
     subtitle: 'Vue.js | Nuxt.js | Java',
-    description: 'React.js Single-Page-Application Pinterest inspired website with use of hooks, states, grid layout, Firebase/Firestore',
+    description:
+      '📍🌍 Travel/Maps app | ⌨️🖱️ Vue.js/Nuxt.js | 🛠️🎨 Full-stack web application for discovering new travel destinations. Vue.js/Nuxt.js + Java Spring | MongoDB | Docker | Google Maps REST API Integration',
     image: project_maps,
     // live: 'https://github.com/fussek/Patryk_Fussek_Maps_App',
     code: 'https://github.com/fussek/Patryk_Fussek_Maps_App',
   },
   {
     title: 'Card matching',
-    subtitle: 'React and Firebase',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?',
+    subtitle: 'React.js',
+    description: '🍭🤹‍♀️ Finding pairs kids game | ⌨️🖱️ React.js | 🎈🎁 Fun little project for my niece`s birthday, just a simple card matching game with family pictures :)',
     image: project_cards,
     live: 'https://findyourfussek.netlify.app/',
     code: 'https://github.com/fussek/Find-Pair-memory-game',
   },
   {
     title: 'OBD-II Monitor',
-    subtitle: 'React Hooks',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?',
+    subtitle: 'Android | Java',
+    description:
+      '🚗🔍 Bluetooth OBD-2 Diagnosis | ⌨️🖱️ Android / Java | 🏫🎓 Bachelor thesis project, Android Application designed to connect & diagnose the car`s onboard computer supporting the OBD2 standard',
     image: project_bluetooth,
     // live: 'https://github.com/fussek/Bluetooth-OBD-II-Diagnostic-Tool',
     code: 'https://github.com/fussek/Bluetooth-OBD-II-Diagnostic-Tool',
+  },
+  {
+    title: 'Portfolio Page',
+    subtitle: 'React.js | Tailwind CSS',
+    description: 'This very portfolio page 😅. Also a project, right ? My first take on Tailwind CSS.',
+    image: project_1,
+    live: 'https://patrykfussek.netlify.app/',
+    code: 'https://github.com/fussek/Portfolio_Website',
   },
 ];
 
@@ -58,6 +68,9 @@ const Projects = () => {
               <div className='relative' key={i}>
                 <img src={project.image} alt={project.title} />
                 <div className='flex absolute left-0 right-0 top-[13px] bottom-0 mx-auto w-[90%] h-[90%]  bg-secondary  opacity-0 duration-500 justify-center flex-col hover:opacity-100 '>
+                  <h1 className='tracking-widest text-m title-font font-medium text-white mb-1'>{project.title}</h1>
+                  <h1 className='tracking-widest text-sm title-font font-medium text-white mb-1'>{project.subtitle}</h1>
+
                   <p className='py-5 text-center px-2 text-white text-sm overflow-hidden'>{project.description}</p>
 
                   <div className='mx-auto'>

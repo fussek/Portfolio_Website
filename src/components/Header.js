@@ -6,7 +6,7 @@ const Header = () => {
   const handleToggle = () => setToggle(!toggle);
   return (
     <header className='flex justify-between px-20 py-2 bg-primary text-primary'>
-      <a href='' className='logo text-2xl'>
+      <a href='/' className='logo text-2xl'>
         <h1>
           <span className='text-accent text-3xl'>P</span>atryk <span className='text-accent text-3xl'>F</span>ussek
         </h1>

@@ -18,13 +18,13 @@ html {
   background: #2b3c57;
 }
 .bg-accent {
-  background: #eb5e4c;
+  background: #a82f42;
 }
 .text-accent {
-  color: #eb5e4c;
+  color: #a82f42;
 }
 .border-accent {
-  border-color: #eb5e4c;
+  border-color: #a82f42;
 }
 .text-primary {
   color: #212121;
@@ -32,13 +32,17 @@ html {
 .text-secondary {
   color: #faf9f9;
 }
+.icon-emoji {
+  height: 2%;
+  width: 2%;
+}
 
 nav li a {
   @apply px-4 py-5 text-lg;
 }
 
 nav li a:hover {
-  color: #f2761b;
+  color: #a82f42;
 }
 
 .mobile-nav {
@@ -47,6 +51,8 @@ nav li a:hover {
 
 /* hero */
 h1 {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Poiret One', cursive;
   line-height: 1.5 !important;
+  font-weight: bolder;
+  font-size: xx-large;
 }

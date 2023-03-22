@@ -25,7 +25,7 @@ const projects = [
     code: 'https://github.com/fussek/Patryk_Fussek_Maps_App',
   },
   {
-    title: 'Card matching',
+    title: 'Card Matching',
     subtitle: 'React.js',
     description: '🍭🤹‍♀️ Finding pairs kids game | ⌨️🖱️ React.js | 🎈🎁 Fun little project for my niece`s birthday, just a simple card matching game with family pictures :)',
     image: project_cards,

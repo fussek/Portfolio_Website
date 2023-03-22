@@ -37,21 +37,29 @@ const Header = () => {
 
       {/* Mobile Nav */}
       <nav className={!toggle ? 'mobile-nav left-[-100%]' : 'mobile-nav left-0'}>
-        <ul className='flex flex-col'>
+        <ul className='flex flex-col py-10 text-5xl'>
           <li>
-            <a href='/#about'>About</a>
+            <a href='/#about' onClick={handleToggle}>
+              About
+            </a>
           </li>
           <li>
-            <a href='/#projects'>Projects</a>
+            <a href='/#projects' onClick={handleToggle}>
+              Projects
+            </a>
           </li>
           <li>
-            <a href='/#blog'>Blog</a>
+            <a href='/#blog' onClick={handleToggle}>
+              Blog
+            </a>
           </li>
           <li>
-            <a href='/#contact'>Contact</a>
+            <a href='/#contact' onClick={handleToggle}>
+              Contact
+            </a>
           </li>
           <li>
-            <a href='https://drive.google.com/file/d/1zdVVGFyYBoRfNK3VNQ25OKbd89iqSyQj/view?usp=sharing' target='_blank' rel='noreferrer'>
+            <a href='https://drive.google.com/file/d/1zdVVGFyYBoRfNK3VNQ25OKbd89iqSyQj/view?usp=sharing' target='_blank' rel='noreferrer' onClick={handleToggle}>
               Resume
             </a>
           </li>

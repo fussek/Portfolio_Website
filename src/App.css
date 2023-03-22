@@ -46,21 +46,17 @@ nav li a:hover {
 }
 
 .mobile-nav {
-  @apply block md:hidden fixed top-10 py-2 w-full h-full bg-[#0a160d] duration-500;
+  @apply block md:hidden fixed top-10 py-2 w-full h-full bg-[#faf9f9] duration-500;
 }
 
 /* hero */
 h1 {
   font-family: 'Hina Mincho', serif;
   line-height: 0.9 !important;
-  /* font-weight: bolder; */
   font-size: xx-large;
 }
 
 /* about */
 p {
-  /* font-family: 'Raleway', sans-serif; */
   line-height: 1.9 !important;
-  /* font-weight: 100; */
-  /* font-size: xx-large; */
 }

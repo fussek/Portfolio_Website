@@ -1,6 +1,7 @@
 import React from 'react';
 import instagram from '../assets/instagram.gif';
 import eit_digital from '../assets/eit_digital.gif';
+import thesis from '../assets/thesis_pano.png';
 
 const Blog = () => {
   return (
@@ -32,6 +33,15 @@ const Blog = () => {
           <h3 className='py-5'>Instagram! Sure thing, be my guest! I love taking pictures and I'm genuinely proud of some of them :). I think they tell my story better than I possibly can.</h3>
           <button className='btn bg-accent border-2 border-accent text-secondary px-6 py-3 hover:bg-transparent'>
             <a href='https://www.instagram.com/patryk.fussek/' target='_blank' rel='noreferrer'>
+              Check it out!
+            </a>
+          </button>
+        </div>
+        <div className=''>
+          <img src={thesis} alt='instagram' />
+          <h3 className='py-5'>My master thesis written at Sorbonne Université Paris about implementation of ITSM/ITIL within ServiceNow Platform-as-a-Service environment.</h3>
+          <button className='btn bg-accent border-2 border-accent text-secondary px-6 py-3 hover:bg-transparent'>
+            <a href='https://drive.google.com/file/d/1maSOn6sE1M8ypLeQNpuGjB6mpwQ5NqOq/view' target='_blank' rel='noreferrer'>
               Check it out!
             </a>
           </button>

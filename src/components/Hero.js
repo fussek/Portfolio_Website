@@ -10,7 +10,7 @@ const Hero = () => {
         <div className='hero-info pb-5 md:pb-0'>
           <h1 className='text-4xl lg:text-4xl font-medium'>Hi, my name is </h1>
           <h1 className='text-8xl font-medium'>
-            <span className='text-accent pl-7 text-9xl'>P</span>atryk <br />
+            <span className='text-accent pl-7 text-9xl tracking-tighter'>P</span>atryk <br />
           </h1>
           <p className='py-5 pr-10'>
             I'm a frontend developer who turns coffee into beautiful and functional websites. I believe the best products are the ones, that combine good design, great functionality, and a healthy

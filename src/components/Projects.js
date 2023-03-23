@@ -65,11 +65,11 @@ const Projects = () => {
         <div className='projects container mx-auto grid md:grid-cols-2 gap-5'>
           {projects.map((project, i) => {
             return (
-              <div className='relative' key={i}>
+              <div className='relative shadow-lg' key={i}>
                 <img src={project.image} alt={project.title} />
-                <div className='flex absolute left-0 right-0 top-[13px] bottom-0 mx-auto w-[90%] h-[90%]  bg-secondary  opacity-0 duration-500 justify-center flex-col hover:opacity-100 '>
-                  <h1 className='tracking-widest text-m title-font font-medium text-white mb-1 leading-tight cursor-default'>{project.title}</h1>
-                  <h1 className='tracking-widest text-sm title-font font-medium text-white mb-1 mt-1 leading-tight cursor-default'>{project.subtitle}</h1>
+                <div className='flex absolute left-0 right-0 top-[13px] bottom-0 mx-auto w-[90%] h-[90%]  bg-secondary pb-6  opacity-0 duration-500 justify-center items-center flex-col hover:opacity-100 '>
+                  <h1 className='tracking-widest text-m title-font font-medium text-white mb-1 leading-tight cursor-default border-b-[1px] border-white w-[50%] pb-2'>{project.title}</h1>
+                  <h2 className='tracking-widest text-sm title-font font-medium text-white mb-1 mt-1 cursor-default'>{project.subtitle}</h2>
 
                   <p className='py-5 text-center px-2 text-white text-sm overflow-hidden cursor-default'>{project.description}</p>
 

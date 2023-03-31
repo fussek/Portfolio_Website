@@ -5,7 +5,7 @@ import { AiOutlineLinkedin, AiOutlineGithub, AiOutlineMail } from 'react-icons/a
 
 const Hero = () => {
   return (
-    <section className='bg-primary text-primary py-32 px-32'>
+    <section className='bg-primary text-primary py-32 px-16 md:px-32'>
       <div className='container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between'>
         <div className='hero-info pb-5 md:pb-0'>
           <h1 className='text-4xl lg:text-4xl font-medium'>Hi, my name is </h1>

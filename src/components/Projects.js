@@ -53,7 +53,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section className='bg-primary text-primary py-32 px-32' id='projects'>
+    <section className='bg-primary text-primary py-32 px-16 md:px-32' id='projects'>
       <div className='container mx-auto grid md:grid-cols-2 items-center md:justify-between'>
         <div className='about-info mb-5'>
           <h2 className='text-4xl font-bold mb-5 border-b-[5px] w-[150px] border-accent pb-2'>Projects</h2>

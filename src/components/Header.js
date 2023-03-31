@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header className='flex justify-between px-20 py-2 bg-primary text-primary'>
       <a href='/' className='logo text-2xl'>
-        <h1>
+        <h1 className='invisible md:visible'>
           <span className='text-accent text-3xl'>P</span>
           <span className='text-accent text-2xl'>F</span>
         </h1>

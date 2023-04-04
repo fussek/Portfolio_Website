@@ -2,6 +2,12 @@ import React from 'react';
 import instagram from '../assets/instagram.gif';
 import eit_digital from '../assets/eit_digital.gif';
 import thesis from '../assets/thesis_pano.png';
+import eit_label from '../assets/eit_label_2.png';
+import sorbonne from '../assets/sorbonne.png';
+import tub from '../assets/tub.jpg';
+import service_now from '../assets/service_now.png';
+import azure from '../assets/azure.png';
+import agh from '../assets/agh.jpg';
 
 const Blog = () => {
   return (
@@ -45,6 +51,47 @@ const Blog = () => {
               Check it out!
             </a>
           </button>
+        </div>
+      </div>
+      <div className='container mx-auto grid pt-16 md:grid-cols-2 items-center md:justify-between'>
+        <div className='about-info mb-5'>
+          <h2 className='text-4xl font-bold mb-5 border-b-[5px] w-[220px] border-accent pb-2'>
+            Certificates <br />& Diplomas
+          </h2>
+          <p className='pb-5'>Some of the certs & diplomas acquired in recent time.</p>
+        </div>
+        <div className='about-img'></div>
+      </div>
+      <div className='projects container mx-auto grid md:grid-cols-3 gap-10 text-center	'>
+        <div className=''>
+          <a href='https://www.SmartCertificate.com/SmartCertificate/?1%7cb4550a0c-25e4-4757-a0ae-4a8295e88dfd%7c77a63d02-485a-45bf-aeb0-ab5bac6ea71f' target='_blank' rel='noreferrer'>
+            <img src={eit_label} alt='eit_label' className='object-contain h-80 cursor-pointer' />
+          </a>
+        </div>
+        <div className=''>
+          <a href={tub} target='_blank' rel='noreferrer'>
+            <img src={tub} alt='tub' className='object-contain h-80 cursor-pointer' />
+          </a>
+        </div>
+        <div className=''>
+          <a href={sorbonne} target='_blank' rel='noreferrer'>
+            <img src={sorbonne} alt='sorbonne' className='object-contain h-80 cursor-pointer' />
+          </a>
+        </div>
+        <div className=''>
+          <a href={service_now} target='_blank' rel='noreferrer'>
+            <img src={service_now} alt='service_now' className='object-contain h-80 cursor-pointer' />
+          </a>
+        </div>
+        <div className=''>
+          <a href='https://www.credly.com/badges/24e8580b-9f43-438d-b0f6-c1291e404fbc/public_url' target='_blank' rel='noreferrer'>
+            <img src={azure} alt='azure' className='object-contain h-80 cursor-pointer' />
+          </a>
+        </div>
+        <div className=''>
+          <a href={agh} target='_blank' rel='noreferrer'>
+            <img src={agh} alt='agh' className='object-contain h-80 cursor-pointer' />
+          </a>
         </div>
       </div>
     </section>

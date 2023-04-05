@@ -60,3 +60,26 @@ h1 {
 p {
   line-height: 1.9 !important;
 }
+
+/* projects */
+.description {
+  overflow-y: scroll;
+}
+
+.description::-webkit-scrollbar {
+  padding-left: 1%;
+  width: 3px;
+}
+
+.description::-webkit-scrollbar-track {
+  padding-left: 2%;
+  border-radius: 5px;
+}
+
+.description::-webkit-scrollbar-thumb {
+  padding-left: 2%;
+  height: 30%;
+  background: #faf9f9;
+  border-radius: 5px;
+  cursor: pointer;
+}

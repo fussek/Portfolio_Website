@@ -7,7 +7,6 @@ import sorbonne from '../assets/sorbonne.png';
 import tub from '../assets/tub.jpg';
 import service_now from '../assets/service_now.png';
 import azure from '../assets/azure.png';
-import agh from '../assets/agh.jpg';
 
 const Blog = () => {
   return (
@@ -53,12 +52,12 @@ const Blog = () => {
           </button>
         </div>
       </div>
-      <div className='container mx-auto grid pt-16 md:grid-cols-2 items-center md:justify-between'>
+      <div className='container mx-auto grid pt-16 md:grid-cols-2 items-center md:justify-between' id='cert_dipl'>
         <div className='about-info mb-5'>
           <h2 className='text-4xl font-bold mb-5 border-b-[5px] w-[220px] border-accent pb-2'>
             Certificates <br />& Diplomas
           </h2>
-          <p className='pb-5'>Some of the certs & diplomas acquired in recent time.</p>
+          <p className='pb-5'>Some relevant certificates & diplomas acquired in the past.</p>
         </div>
         <div className='about-img'></div>
       </div>
@@ -86,11 +85,6 @@ const Blog = () => {
         <div className=''>
           <a href='https://www.credly.com/badges/24e8580b-9f43-438d-b0f6-c1291e404fbc/public_url' target='_blank' rel='noreferrer'>
             <img src={azure} alt='azure' className='object-contain h-80 cursor-pointer' />
-          </a>
-        </div>
-        <div className=''>
-          <a href={agh} target='_blank' rel='noreferrer'>
-            <img src={agh} alt='agh' className='object-contain h-80 cursor-pointer' />
           </a>
         </div>
       </div>

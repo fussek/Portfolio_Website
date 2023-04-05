@@ -26,6 +26,9 @@ const Header = () => {
             <a href='/#blog'>Blog</a>
           </li>
           <li>
+            <a href='/#cert_dipl'>Certificates & Diplomas</a>
+          </li>
+          <li>
             <a href='/#contact'>Contact</a>
           </li>
           <li>
@@ -52,6 +55,11 @@ const Header = () => {
           <li>
             <a href='/#blog' onClick={handleToggle}>
               Blog
+            </a>
+          </li>
+          <li>
+            <a href='/#cert_dipl' onClick={handleToggle}>
+              Certificates & Diplomas
             </a>
           </li>
           <li>

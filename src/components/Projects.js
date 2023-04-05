@@ -71,7 +71,7 @@ const Projects = () => {
                   <h1 className='tracking-widest text-m title-font font-medium text-white mb-1 leading-tight cursor-default border-b-[1px] border-white w-[50%] pb-2'>{project.title}</h1>
                   <h2 className='tracking-widest text-sm title-font font-medium text-white mb-1 mt-1 cursor-default'>{project.subtitle}</h2>
 
-                  <p className='py-5 text-center px-2 text-white text-sm overflow-hidden cursor-default'>{project.description}</p>
+                  <p className='description py-5 text-center px-2 mb-3 text-white text-sm w-[90%] cursor-default'>{project.description}</p>
 
                   <div className='mx-auto'>
                     {project.live ? (

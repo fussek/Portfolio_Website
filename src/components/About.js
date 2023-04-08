@@ -1,4 +1,5 @@
 import React from 'react';
+import tech_stack from '../assets/tech_stack_2.png';
 
 const About = () => {
   return (
@@ -17,7 +18,9 @@ const About = () => {
             site (life is more than just code, right? 😎).
           </p>
         </div>
-        <div className='about-img'>{/* <img src={AboutImg} alt='coding illustration' className='lgw-[80%] md:ml-auto' /> */}</div>
+        <div className='about-img w-[70%] items-center m-auto'>
+          <img src={tech_stack} alt='tech_stack' className='lgw-[80%] md:ml-auto' />
+        </div>
       </div>
     </section>
   );

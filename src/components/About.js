@@ -7,15 +7,15 @@ const About = () => {
       <div className='container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between'>
         <div className='about-info'>
           <h2 className='text-4xl  font-bold mb-5 border-b-[5px] w-[180px] border-accent pb-2'>About me</h2>
-          <p className='pb-5'>Hey there! My name is Patryk, and I'm a frontend developer who enjoys crafting websites that are both easy on the eyes and a joy to use 😃.</p>
+          <p className='pb-5'>Hey there! My name is Patryk, I'm a software developer with a couple of years of experience on my back, excited for more to come :).</p>
           <p className='pb-5'>
-            I'm always on the lookout for creative solutions to design challenges, and I'm not afraid to dive into new technologies to achieve my goals. Whether I'm coding something brand new or
-            optimizing an existing solution for better performance, I'm happiest when I'm fully submerged in code and work hard to make something awesome!
+            I'm always on the lookout for creative solutions to design challenges, and I'm not afraid to dive into new technologies to achieve my goals. </p>
+          <p className='pb-5'>I currently work at <a href='https://www.julius-kuehn.de/en/' class="font-medium text-white-600 dark:text-blue-500 hover:underline">Julius Kühn-Institut</a> for the KlimaFFolgen project,
+            where I handle all technical responsibilities, including database maintenance, backend infrastructure management, and development of the web application.
+            You can find out more about the project under this link: <a href='https://wissen.julius-kuehn.de/klimaschutz/en/projects/increasing-carbon-sink-potentials/klimaffolgen'>⧉</a>
           </p>
-          <p className='pb-5'>I'm most comfortable withs React.js, Vue.js, Javascript, HTML, CSS, but i never limit myself and I'd be happy to take on a new challenges in an unknown field.</p>
           <p className='pb-5'>
-            Beyond the code, you'll find me exploring the world through my camera lens, immersing myself in new cultures and just enjoying life as an adventure. Check out the 'Blog' section of this
-            site (life is more than just code, right? 😎).
+            Beyond coding, I love exploring the world with my camera, experiencing new cultures and enjoying life's adventures. Check out the 'Blog' section of this site - there's more to life than just code! 😎
           </p>
         </div>
         <div className='about-img w-[70%] items-center m-auto'>

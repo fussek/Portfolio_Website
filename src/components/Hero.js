@@ -1,7 +1,7 @@
 import React from 'react';
 import ProfileImg from '../assets/profile_3.jpg';
 
-import { AiOutlineLinkedin, AiOutlineGithub, AiOutlineMail } from 'react-icons/ai';
+import { AiOutlineLinkedin, AiOutlineGithub, AiOutlineMail, AiOutlineLaptop } from 'react-icons/ai';
 
 const Hero = () => {
   return (
@@ -13,12 +13,12 @@ const Hero = () => {
         <div className='hero-info pb-5 md:pb-0'>
           <h1 className='text-4xl lg:text-4xl font-medium'>Hi, my name is </h1>
           <h1 className='text-8xl font-medium'>
-            <span className='text-accent pl-7 text-9xl tracking-tighter'>P</span>atryk <br />
+            <span className='text-accent pl-7 text-8xl tracking-tighter'>P</span>atryk <br />
           </h1>
 
           <p className='py-5 pr-10'>
-            I'm a frontend developer who turns coffee into beautiful and functional websites. I believe the best products are the ones, that combine good design, great functionality, and a healthy
-            dose of humor :) .<br />
+            I'm a Software Developer, located in Berlin 🇩🇪. I'm currently working at <a href='https://www.julius-kuehn.de/en/' class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Julius Kühn-Institut </a>
+              as a Web Developer in the KlimaFFolgen project.<br />
           </p>
 
           <div className='flex py-5 justify-center md:justify-start'>
@@ -30,6 +30,9 @@ const Hero = () => {
             </a>
             <a href='mailto:patryk.fussek@gmail.com' target='_blank' rel='noreferrer' className='pr-4 inline-block text-[#902333] hover:text-[#121924]'>
               <AiOutlineMail size={40} />
+            </a>
+            <a href='https://www.julius-kuehn.de/sf/personal/p/patryk-fussek' target='_blank' rel='noreferrer' className='pr-4 inline-block text-[#902333] hover:text-[#121924]'>
+              <AiOutlineLaptop size={40} />
             </a>
           </div>
           <div className='flex justify-center md:justify-start'>

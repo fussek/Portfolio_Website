@@ -2,7 +2,7 @@ import React from "react";
 import project_1 from "../assets/project_1.png";
 import project_klimaffolgen from "../assets/klimaffolgen.jpeg";
 import project_maps from "../assets/project_paris.png";
-import project_cards from "../assets/project_cards.png";
+// import project_cards from "../assets/project_cards.png";
 import project_bluetooth from "../assets/project_bluetooth.png";
 import project_portfolio from "../assets/project_portfolio.png";
 

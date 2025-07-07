@@ -17,7 +17,7 @@ const projects = [
     info: "https://www.ressortforschtklima.de/en/participating-projects/klimaffolgen",
   },
   {
-    title: "Pinterest Clone",
+    title: "React Pin",
     subtitle: "React.js | Firebase",
     description:
       "📌📱 Pinterest Clone | ⌨️🖱️ React.js / Firebase | 🧑‍💻 React.js Single-Page-Application Pinterest inspired website with use of hooks, states, grid layout, Firebase | Firestore Backend as a Service",
@@ -34,15 +34,15 @@ const projects = [
     // live: 'https://github.com/fussek/Patryk_Fussek_Maps_App',
     code: "https://github.com/fussek/Patryk_Fussek_Maps_App",
   },
-  {
-    title: "Card Matching",
-    subtitle: "React.js",
-    description:
-      "🍭🤹‍♀️ Finding pairs kids game | ⌨️🖱️ React.js | 🎈🎁 Fun little project for my niece`s birthday, just a simple card matching game with family pictures :)",
-    image: project_cards,
-    live: "https://findyourfussek.netlify.app/",
-    code: "https://github.com/fussek/Find-Pair-memory-game",
-  },
+  // {
+  //   title: "Card Matching",
+  //   subtitle: "React.js",
+  //   description:
+  //     "🍭🤹‍♀️ Finding pairs kids game | ⌨️🖱️ React.js | 🎈🎁 Fun little project for my niece`s birthday, just a simple card matching game with family pictures :)",
+  //   image: project_cards,
+  //   live: "https://findyourfussek.netlify.app/",
+  //   code: "https://github.com/fussek/Find-Pair-memory-game",
+  // },
   {
     title: "OBD-II Monitor",
     subtitle: "Android | Java",

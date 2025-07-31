@@ -1,5 +1,3 @@
-import React from 'react';
-import instagram from '../assets/instagram.gif';
 import blog from '../assets/blog.gif';
 import eit_digital from '../assets/eit_digital.gif';
 import jki from '../assets/jki.jpg';

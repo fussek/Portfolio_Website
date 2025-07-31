@@ -1,6 +1,8 @@
 import React from "react";
 import project_1 from "../assets/project_1.png";
 import project_klimaffolgen from "../assets/klimaffolgen.jpeg";
+import project_berlin_photoblog from "../assets/berlin.png";
+import project_article_dashboard from "../assets/article_dashboard.png";
 import project_maps from "../assets/project_paris.png";
 // import project_cards from "../assets/project_cards.png";
 import project_bluetooth from "../assets/project_bluetooth.png";
@@ -16,6 +18,25 @@ const projects = [
     live: "https://synops.julius-kuehn.de/",
     info: "https://www.ressortforschtklima.de/en/participating-projects/klimaffolgen",
   },
+  {
+    title: "Berlin Photoblog",
+    subtitle: "React.js | Firebase | Netlify",
+    description:
+      "📸🎞️ Dark-themed photoblog | ⌨️🖱️ React.js / Firebase | 🧑‍💻 SPA featuring infinite scroll, fetching a randomized gallery of my photos from a Firestore database. Implements scroll-based animations with Intersection Observer and a responsive grid layout.",
+    image: project_berlin_photoblog, // Replace with your image variable
+    live: "https://berlin-pf.netlify.app/", // Replace with your live URL
+    code: 'https://github.com/fussek/berlin-photoblog',
+  },
+  {
+    title: "Article Management Dashboard",
+    subtitle: "Angular | .NET 6 | SQLite | Material UI | Renderer | Netlify",
+    description: "🚲⚙️ Full-stack dashboard for managing bicycle components. 🅰️ Angular frontend with responsive design, integrated filtering/sorting, CRUD modals, and data export (CSV/JSON). 🌐 .NET 6 API backend with EF Core, SQLite, and automated migrations. 🚀 Deployed on Netlify & Render.",
+    image: project_article_dashboard,
+    live: "https://article-dashboard-noca.netlify.app/",
+    code: "https://github.com/fussek/article-dashboard"
+  },
+
+
   {
     title: "React Pin",
     subtitle: "React.js | Firebase",

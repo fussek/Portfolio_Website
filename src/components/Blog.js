@@ -1,5 +1,6 @@
 import React from 'react';
 import instagram from '../assets/instagram.gif';
+import blog from '../assets/blog.gif';
 import eit_digital from '../assets/eit_digital.gif';
 import jki from '../assets/jki.jpg';
 import thesis from '../assets/thesis_pano.png';
@@ -35,10 +36,10 @@ const Blog = () => {
           </button>
         </div>
         <div className=''>
-          <img src={instagram} alt='instagram' />
-          <h3 className='py-5'>Instagram! Sure thing, be my guest! I love taking pictures and I'm genuinely proud of some of them :). I think they tell my story better than I possibly can.</h3>
+          <img src={blog} alt='blog' />
+          <h3 className='py-5'>My Berlin Photoblog. I love taking pictures, I think they tell my story better than I possibly can.</h3>
           <button className='btn bg-accent border-2 border-accent text-secondary px-6 py-3 hover:bg-transparent'>
-            <a href='https://www.instagram.com/patryk.fussek/' target='_blank' rel='noreferrer'>
+            <a href='https://berlin-pf.netlify.app/' target='_blank' rel='noreferrer'>
               Check it out!
             </a>
           </button>

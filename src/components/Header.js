@@ -32,7 +32,7 @@ const Header = () => {
             <a href='/#contact'>Contact</a>
           </li>
           <li>
-            <a href='https://drive.google.com/file/d/1rX6WqgWngd1gmmeQcZDnX3rEJKqtzyzz/view?usp=sharing' target='_blank' rel='noreferrer'>
+            <a href='https://drive.google.com/file/d/14obCXahmhMO3Ll3rPZwzqiGVUw413hLW/view?usp=sharing' target='_blank' rel='noreferrer'>
               Resume
             </a>
           </li>

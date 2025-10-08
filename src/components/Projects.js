@@ -2,7 +2,7 @@ import React from "react";
 import project_1 from "../assets/project_1.png";
 import project_klimaffolgen from "../assets/klimaffolgen.jpeg";
 import project_berlin_photoblog from "../assets/berlin.png";
-import project_bike_parts_app from "../assets/bike_parts_app.png";
+import project_bike_parts_app from "../assets/bike_parts_management.png";
 import project_maps from "../assets/project_paris.png";
 import project_bluetooth from "../assets/project_bluetooth.png";
 import project_portfolio from "../assets/project_portfolio.png";

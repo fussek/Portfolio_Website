@@ -2,9 +2,8 @@ import React from "react";
 import project_1 from "../assets/project_1.png";
 import project_klimaffolgen from "../assets/klimaffolgen.jpeg";
 import project_berlin_photoblog from "../assets/berlin.png";
-import project_article_dashboard from "../assets/article_dashboard.png";
+import project_bike_parts_app from "../assets/bike_parts_app.png";
 import project_maps from "../assets/project_paris.png";
-// import project_cards from "../assets/project_cards.png";
 import project_bluetooth from "../assets/project_bluetooth.png";
 import project_portfolio from "../assets/project_portfolio.png";
 
@@ -23,17 +22,17 @@ const projects = [
     subtitle: "React.js | Firebase | Netlify",
     description:
       "📸🎞️ Dark-themed photoblog | ⌨️🖱️ React.js / Firebase | 🧑‍💻 SPA featuring infinite scroll, fetching a randomized gallery of my photos from a Firestore database. Implements scroll-based animations with Intersection Observer and a responsive grid layout.",
-    image: project_berlin_photoblog, // Replace with your image variable
-    live: "https://berlin-pf.netlify.app/", // Replace with your live URL
+    image: project_berlin_photoblog,
+    live: "https://berlin-pf.netlify.app/",
     code: 'https://github.com/fussek/berlin-photoblog',
   },
   {
-    title: "Article Management Dashboard",
-    subtitle: "Angular | .NET 6 | SQLite | Material UI | Renderer | Netlify",
-    description: "🚲⚙️ Full-stack dashboard for managing bicycle components. 🅰️ Angular frontend with responsive design, integrated filtering/sorting, CRUD modals, and data export (CSV/JSON). 🌐 .NET 6 API backend with EF Core, SQLite, and automated migrations. 🚀 Deployed on Netlify & Render.",
-    image: project_article_dashboard,
-    live: "https://article-dashboard-noca.netlify.app/",
-    code: "https://github.com/fussek/article-dashboard"
+    title: "Bike Parts Management",
+    subtitle: "React | Java Spring Boot | PostgreSQL | Zustand | Netlify | Railway",
+    description: "⚙️🔩 Full-stack SPA for a bike parts catalog, built as a comprehensive case study. ⚛️ React frontend with advanced sorting/filtering, pagination, lazy-loaded modals, and global error handling. ☕ Java Spring Boot REST API with JPA/Hibernate, PostgreSQL, and a Dockerized deployment. 🧪 End-to-end tested with Jest & JUnit. 🚀 Deployed as a monorepo to Netlify & Railway.",
+    image: project_bike_parts_app,
+    live: "https://case-study-app.netlify.app/",
+    code: "https://github.com/fussek/BikePartsApp"
   },
 
 
@@ -55,15 +54,6 @@ const projects = [
     // live: 'https://github.com/fussek/Patryk_Fussek_Maps_App',
     code: "https://github.com/fussek/Patryk_Fussek_Maps_App",
   },
-  // {
-  //   title: "Card Matching",
-  //   subtitle: "React.js",
-  //   description:
-  //     "🍭🤹‍♀️ Finding pairs kids game | ⌨️🖱️ React.js | 🎈🎁 Fun little project for my niece`s birthday, just a simple card matching game with family pictures :)",
-  //   image: project_cards,
-  //   live: "https://findyourfussek.netlify.app/",
-  //   code: "https://github.com/fussek/Find-Pair-memory-game",
-  // },
   {
     title: "OBD-II Monitor",
     subtitle: "Android | Java",
